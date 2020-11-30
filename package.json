@@ -5,7 +5,10 @@
   "author": "rreenn <1163393838@qq.com>",
   "license": "MIT",
   "keywords": [],
-  
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:yangrenmu/loulan.git"
+  },
   "scripts": {
     "start": " cross-env ENV=development webpack-dev-server --env=development --config ./webpack/webpack.config.js",
     "build": "webpack --config ./webpack/webpack.config.js"
