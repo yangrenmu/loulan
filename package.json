@@ -1,10 +1,11 @@
 {
   "name": "loulan",
-  "version": "0.0.3",
-  "main": "dist/loulan.min.js",
+  "version": "0.0.4",
+  "main": "lib/loulan.js",
   "author": "rreenn <1163393838@qq.com>",
   "license": "MIT",
   "keywords": [],
+  
   "scripts": {
     "start": " cross-env ENV=development webpack-dev-server --env=development --config ./webpack/webpack.config.js",
     "build": "webpack --config ./webpack/webpack.config.js"
